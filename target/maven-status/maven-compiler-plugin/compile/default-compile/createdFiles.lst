@@ -1,0 +1,6 @@
+com\octave\octave_demo\SpotifyPageOne.class
+com\octave\octave_demo\SpotifyPageThree.class
+com\octave\octave_demo\SpotifyPageTwo.class
+utils\PropertiesLoader.class
+utils\BrowserUtils.class
+utils\WebDriverUtils.class
