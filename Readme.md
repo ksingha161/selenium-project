@@ -4,7 +4,7 @@
 - I've executed this project only in Intellij and I'd suggest doing the same, community or ultimate edition doesn't matter.
 
 ## Email & password
-- test.properties file contains the username and password value, replace **secret** with actual email and password. 
+- test.properties file contains the username and password value, replace *** secret *** with actual email and password. 
 
 ## To run
 - From commandline - mvn clean test -Dsurefire.suiteXmlFiles=src\test\java\com\octave\suites\spotify_suite.xml
