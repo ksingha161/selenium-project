@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Spotify Test" verbose="4" parallel="instances" data-provider-thread-count="8" thread-count="8">
+<suite name="Spotify Test">
 
     <test name="All Tests">
         <parameter name="browser" value="chrome"/>
