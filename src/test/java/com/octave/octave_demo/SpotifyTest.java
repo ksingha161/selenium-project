@@ -50,7 +50,6 @@ public class SpotifyTest
         spotifyPageOne.clickLogin();
     }
 
-//    @Ignore
     @Test(priority = 1)
     private void testPageTwo()
     {
@@ -70,7 +69,6 @@ public class SpotifyTest
         }
     }
 
-//    @Ignore
     @Test(priority = 2)
     private void testPageThree()
     {
