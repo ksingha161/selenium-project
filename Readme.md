@@ -1,5 +1,5 @@
 ## Installation
-- You will need JDK 11 to run this project
+- You will need Java 8 to run this project
 - You'll need maven to run via commandline, but you can run without it by right clicking on the spotify_suite.xml and selecting run.
 - I've executed this project only in Intellij and I'd suggest doing the same, community or ultimate edition doesn't matter.
 
