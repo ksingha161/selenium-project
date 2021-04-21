@@ -21,7 +21,6 @@ import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-@Listeners({ ScreenShooter.class })
 public class SpotifyTest
 {
 
@@ -36,8 +35,6 @@ public class SpotifyTest
     private void setUp( ITestContext context )
     {
         WebDriverManager.chromedriver().setup();
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments( "--headless" );
         driver = BrowserUtils.resolveDriver( context );
         driver.get( BASE_URL );
 //        driver.manage().window().maximize();
